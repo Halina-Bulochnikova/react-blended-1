@@ -1,6 +1,6 @@
 import style from './ForbesList.module.css';
 import ForbesListItem from '../ForbesListItem/ForbesListItem';
-import PropTypes from 'prop-types';
+
 
 const ForbesList = ({ forbes }) => {
   return (
@@ -19,7 +19,6 @@ const ForbesList = ({ forbes }) => {
               avatar={avatar}
               name={name}
               capital={capital}
-    
             />
           </li>
         ))}
